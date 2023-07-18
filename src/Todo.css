@@ -1,0 +1,40 @@
+.td-text{
+    text-align: center;
+    font-size: 75px;
+  }
+  
+  .td-container {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .an-button{
+    margin: 20px;
+    background-color:blue ;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+  
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item span {
+    margin-right: 10px;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+  }
